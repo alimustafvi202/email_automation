@@ -24,8 +24,8 @@ except IOError:
     font = ImageFont.load_default()
 
 # Email credentials
-SENDER_EMAIL = 'info@techniknest.tech'
-SENDER_PASSWORD = 'nopassword202#'
+SENDER_EMAIL = ''
+SENDER_PASSWORD = ''
 
 # Create folder to save generated certificates
 os.makedirs("generated_certificates", exist_ok=True)
